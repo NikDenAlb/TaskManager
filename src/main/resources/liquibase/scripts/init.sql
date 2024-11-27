@@ -9,3 +9,9 @@ CREATE TABLE IF NOT EXISTS users
     password varchar(128) NOT NULL,
     role     VARCHAR(5)
 );
+
+CREATE TABLE IF NOT EXISTS tasks
+(
+    id     BIGINT PRIMARY KEY,
+    status VARCHAR(7)
+);
